@@ -194,10 +194,6 @@
                 <i id="soundIcon" data-lucide="volume-2" class="w-4 h-4 text-rose-400"></i>
                 <span class="hidden sm:inline" id="soundLabel">Sound On</span>
             </button>
-            <button onclick="fillSampleHighlight()" class="px-3 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-400/30 text-amber-300 text-xs font-medium transition-all flex items-center gap-1.5 shadow-sm">
-                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
-                <span>Soulmate Demo</span>
-            </button>
         </div>
     </header>
 
@@ -337,20 +333,6 @@
                             </button>
                         </div>
                     </form>
-
-                    <!-- Recent Calculations History -->
-                    <div id="historySection" class="mt-6 pt-5 border-t border-white/10 hidden">
-                        <div class="flex items-center justify-between mb-2.5">
-                            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
-                                <i data-lucide="history" class="w-3.5 h-3.5 text-rose-400"></i>
-                                Recent Matches
-                            </span>
-                            <button onclick="clearHistory()" class="text-[11px] text-slate-400 hover:text-rose-400 transition-colors">Clear</button>
-                        </div>
-                        <div id="historyList" class="flex flex-wrap gap-2"></div>
-                    </div>
-                </div>
-            </div>
 
             <!-- Right Column: Result / Analyzer Display -->
             <div id="resultColumn" class="lg:col-span-7 w-full">
